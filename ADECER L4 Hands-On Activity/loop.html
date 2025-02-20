@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADECER L4 Hands-On Activity</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #081b29;
+            color: #ededed;
+            text-align: center;
+        }
+
+        .container {
+            margin-top: 100px;
+            padding: 25px;
+            background-color: #112d42;
+            display: inline-block;
+            border-radius: 10px;
+        }
+
+        input {
+            width: 200px;
+            height: 40px;
+            font-size: 18px;
+            padding: 5px;
+            text-align: center;
+            border: 2px solid #00abf0;
+            border-radius: 5px;
+            background: transparent;
+            color: #ededed;
+            outline: none;
+        }
+
+        input::placeholder {
+            color: #00abf0;
+        }
+
+        #result {
+            margin-top: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1><br><br>Lesson 4: Loops & Conditionals</h1>
+
+    <div class="container">
+        <h2>Even or Odd Checker</h2>
+        <br>
+        <input type="text" id="numberInput" placeholder="Enter a number..." oninput="checkEvenOdd()">
+        <p id="result"></p>
+    </div>
+
+    <script src="jvspt.js"></script>
+</body>
+</html>
